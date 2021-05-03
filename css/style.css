@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e74c3c;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+}
+.colors {
+  overflow: hidden;
+  width: 260px;
+  display: flex;
+  border: 5px solid #fff;
+}
+.colors a {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.colors a:nth-child(1) {
+  background: #e74c3c;
+  color: #e74c3c;
+}
+.colors a:nth-child(2) {
+  background: #3498db;
+  color: #3498db;
+}
+.colors a:nth-child(3) {
+  background: #9b59b6;
+  color: #9b59b6;
+}
+.colors a:nth-child(4) {
+  background: #f1c40f;
+  color: #f1c40f;
+}
+.colors a:nth-child(5) {
+  background: #1abc9c;
+  color: #1abc9c;
+}
